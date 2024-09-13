@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.clock{
+    background: linear-gradient(35deg,rgb(228, 238, 94), rgb(240, 143, 143), blue);
+    position: relative;
+    border: 5px solid lawngreen;
+    border-radius: 5px;
+    border-style: none;
+    margin: 100px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}

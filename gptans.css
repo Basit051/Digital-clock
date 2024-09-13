@@ -1,0 +1,55 @@
+/* practice.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #0a1a2a, #343a40, #1c2833); /* Dark ocean-like gradient */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly transparent background */
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.clock span {
+    font-size: 80px;
+    margin: 0 10px;
+    color: #f5d742; /* Golden color for hours */
+}
+
+#min {
+    color: #6ccfdb; /* Aqua color for minutes */
+}
+
+#sec {
+    color: #e74c3c; /* Red color for seconds */
+}
+
+.clock div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
